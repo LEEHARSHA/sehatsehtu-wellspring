@@ -23,6 +23,14 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        healthcare: {
+          DEFAULT: "hsl(var(--healthcare-green))",
+          foreground: "hsl(var(--healthcare-green-foreground))",
+        },
+        trust: {
+          DEFAULT: "hsl(var(--trust-blue))",
+          foreground: "hsl(var(--trust-blue-foreground))",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -62,6 +70,19 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-medical': 'var(--gradient-medical)',
+        'gradient-healthcare': 'var(--gradient-healthcare)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'medical': 'var(--shadow-medical)',
+        'card-hover': 'var(--shadow-hover)',
+        'soft': 'var(--shadow-card)',
+      },
+      transitionTimingFunction: {
+        'medical': 'var(--transition-medical)',
       },
       keyframes: {
         "accordion-down": {
